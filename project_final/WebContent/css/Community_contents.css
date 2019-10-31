@@ -1,0 +1,92 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+@font-face {
+	font-family: 'GoyangIlsan';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'yg-jalnan';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+* {
+	src: url('/fonts/NANUMBARUNGOTHIC.TTF');
+	font-family: NANUMBARUNGOTHIC;
+	font-size: 20px;
+	color: #393939;
+}
+
+
+
+body {
+	
+	display: block;
+	margin: 50px;
+	font-size: 16px;
+	color: #999;
+}
+
+h3 {
+	
+	font-size: 30px;
+	color: #216182;
+}
+
+tr, td {
+	
+	width: 539px;
+	
+	background-color: #ffffff;
+	border-radius: 6px;
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin-top: 3px;
+	font-size: 0.9em;
+	color: #3a3a3a;
+
+}
+
+.date{
+	border : none;
+	
+}
+.one1_td{
+	
+	height: 30px;
+}
+
+.button {
+	width: 127px;
+	height: 48px;
+	color: white;
+	background-color: #216282;
+	text-align: center;
+	border: none;
+	margin-top: 20px;
+	margin-left : 45%;
+	cursor: pointer;
+}
+
+button:hover {
+	color: #fff;
+	background-color: #216282;
+	opacity: 0.9;
+}
+
+hr {
+	width: 20%;
+	color: #dedede;
+}
+
+

@@ -1,0 +1,93 @@
+
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+@font-face {
+	font-family: 'GoyangIlsan';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'yg-jalnan';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.jejugothic * {
+	font-family: 'Jeju Gothic', sans-serif;
+}
+
+
+
+* {
+	font-family: 'Jeju Gothic', sans-serif;
+}
+
+
+
+body {
+	
+	display: block;
+	margin: 50px;
+	font-size: 16px;
+	color: #999
+}
+
+h3 {
+	
+	font-size: 30px;
+	color: #216182;
+}
+
+table, tr, td {
+	
+	width: 539px;
+	background-color: #ffffff;
+	border-radius: 6px;
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin-top: 3px;
+	color: #3a3a3a;
+
+}
+
+
+
+
+.one1_td{
+	
+	height: 30px;
+}
+
+.button{
+    width: 127px;
+    height: 48px;
+    text-align: center;
+    border-width: 1px;
+    border-style: 1px;
+    border-color: #f0f0f0;
+    border-color:none;
+    border-radius: 5px;
+    margin-left: 860px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: white;
+    color: #393939;
+     }
+.button:hover{
+         color: #ffffff;
+         background-color: #393939;
+         opacity: 0.9;
+     }
+
+hr {
+	width: 20%;
+	color: #dedede;
+}
+

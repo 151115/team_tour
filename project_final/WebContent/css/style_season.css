@@ -1,0 +1,159 @@
+@charset "EUC-KR";
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+.season_table_tbody{
+	cursor: pointer;
+}
+@font-face {
+	font-family: 'GoyangIlsan';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'yg-jalnan';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.jejugothic * {
+	font-family: 'Jeju Gothic', sans-serif;
+}
+
+
+*{
+	color: #393939;
+	font-family: 'Jeju Gothic', sans-serif;
+	
+}
+
+
+ul.tabs{
+  margin: auto;
+  padding-bottom: 30px;
+  list-style: none;
+}
+ul.tabs li{
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+ .open{
+    font-size: 50px;
+    font-family: 'Jeju Gothic', sans-serif;
+    font-family: 'yg-jalnan';
+    text-align: left;
+   
+ }
+ul.tabs li.current{
+  background: #ededed;
+  color: #222;
+}
+.container{
+    text-align: center;
+    margin: auto;
+    width: 1410px;
+}
+#tab-1{
+/* 	/* margin-top : 50px;
+	display: inline-block;
+	align-content:center;
+	padding : 30px;
+	height: 400px; */ */
+}
+.spot_1_img{
+
+	 /* margin-left: -290px; */
+	 float: left;
+	 text-align: center;
+}
+.spot_img{
+	height : 400px;
+}
+.spot_1_info{
+	padding-left:50px;
+	weight: 50%;
+	display: inline-block;
+	
+}
+.spot_1{
+	font-size: 50px;
+	font-weight: 2px;
+	float: left;
+	font-family: 'Jeju Gothic', sans-serif;
+}
+.season_table{
+	margin-top: 40px;
+	/* padding : 10px; */
+	/* margin-left: 150px; */
+	
+}
+#info_table{
+	margin-left: 20px;
+}
+.theme_deatil{
+	
+	text-align : center;
+	align-items: center;
+}
+.contwrap{
+	text-align: center;
+}
+.cont_wrap {
+	display: inline-block;
+	text-align: center;
+	align-content: center;
+}
+.cont_title{
+	margin-top : 50px;
+}
+
+.spring, .summer, .autumn, .winter{
+	width: 300px;
+    height: 40px;
+    border-bottom: 1px solid #bcbcbc;
+    background-color: #393939;
+    border-top-left-radius: 5px;
+    color: white;
+}
+	
+hr{
+	margin-top: -30px;
+	border: 0.5px solid #e2e2e2;
+	
+}
+	
+.p_1{
+	text-align: left;
+	
+}
+.information{
+	
+	text-align: left;
+}
+
+.th1{
+	
+	text-align: right;
+	
+	
+}
+.tr1{
+	
+	border :  0.5px solid #e2e2e2;
+}
+.cont_table{
+	
+	  border-spacing: 10px;
+  border-collapse: separate;
+	
+}
+}

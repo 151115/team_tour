@@ -1,0 +1,185 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+@charset "EUC-KR";
+
+
+
+
+
+
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+@font-face {
+	font-family: 'GoyangIlsan';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'yg-jalnan';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.jejugothic * {
+	font-family: 'Jeju Gothic', sans-serif;
+}
+
+*{
+	
+	font-family: 'Jeju Gothic', sans-serif;
+}
+
+p {
+	text-align: center;
+	font-size: 40px;
+	color: #393939;
+	font-family: 'yg-jalnan';
+}
+
+body {
+	color: #393939;
+	-webkit-font-smoothing: antialiased;
+	width: 100%;
+	padding-bottom: 100px;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+
+.cont_wrap {
+	margin-top: 20px; align-content : center;
+	text-align: center;
+	align-content: center;
+}
+
+div {
+	color: #393939;
+}
+
+.h3_txt {
+	font-size: 15px;
+}
+
+.tour {
+	font-weight: bold;
+	padding: 20px;
+	font-size: 30px;
+}
+
+.one_td {
+	text-align: right;
+}
+
+input {
+	width: 539px;
+	height: 27px;
+	background-color: #ffffff;
+	border-radius: 6px;
+	border: 0.1px solid;
+	padding: 10px;
+	margin-top: 3px;
+	font-size: 0.9em;
+	color: #3a3a3a;
+}
+
+input:focus {
+	border: 1px solid #97d6eb;
+}
+
+.button {
+	width: 127px;
+	height: 48px;
+	color: white;
+	background-color: #216282;
+	text-align: center;
+	border: none;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+button:hover {
+	color: #fff;
+	background-color: #216282;
+	opacity: 0.9;
+}
+
+hr {
+	width: 20%;
+	color: #dedede;
+}
+
+.contents {
+	display: grid;
+	grid-template-columns: 550px 550px 550px;
+	grid-auto-rows: 670px;
+	grid-gap: 30px;
+	padding-left: 90px;
+}
+
+.cont_inner_wrap {
+	align-items: center;
+}
+
+.spot_img {
+	margin-top: 10px;
+	height: 400px;
+	weight: 30%;
+}
+
+.table {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.spotinfo {
+	padding-top: 7px;
+	border-color: #393939;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+#spotName {
+	color: #393939;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+#tripadvisor {
+	margin-top : 5px;
+	height: 25px;
+
+}
+
+#address {
+	font-size: 20px;
+	color: #393939;
+}
+
+a {
+	color: #393939;
+}
+
+.pictogram_img {
+	height: 45px;
+	weight: 45px;
+	float: left;
+	margin-top: 10px;
+}
+
+
+
+.season_table > tr > td{
+	border: 1px; s
+	
+	
+}
